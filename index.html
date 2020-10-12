@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//cdn.muicss.com/mui-0.10.3/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <script src="//cdn.muicss.com/mui-0.10.3/js/mui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  </head>
+    <body>
+        <div class="mui-appbar">
+            <div class="header">
+                <div class="judul">SPORT STATION</div>
+                <div class="search">Search 
+                    <input type="text" name="nama" class="cari">
+                    <input style="background-color: rgb(157, 179, 207); border-radius: 5px; border: 2; border-color: slateblue; font-weight: bold" type="submit" values="Go" class="go">
+                </div>
+            </div>
+            <hr class="hr">
+            
+        </div>
+        <div class="mui-menu">
+            <ul>
+                <li><a href="#">PRIA</a></li>
+                <li><a href="#">WANITA</a></li>
+                <li><a href="#">ASESORIS</a></li>
+                <li><a href="#">ALAT</a></li>		
+            </ul>
+        </div>
+    <div class="mui-content">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/mizunoZ5.jpg" class="image">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/kaoskakiacademy.jpg" class="image">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/bolanikestrike.jpg" class="image">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/dekerpuma.jpg" class="image">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/sarungtangan-reusch.jpg" class="image">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/bolabasketadidas.jpg" class="image">
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+                
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+        <aside class="sidebar">
+			<div class="mui-widget">
+				<h2>Tutorial</h2>
+				<p>Selamat datang di www.malasngoding.com, situs ini menyediakan tutorial pemrograman web, mobile & desktop.</p>
+			</div>
+			<div class="mui-widget">
+				<h2>Ebook Gratis</h2>
+				<p>Teman-teman bisa mendapatkan ebook tutorial gratis di sini <a target="_blank" href="https://www.malasngoding.com">www.malasngoding.com</a>.</p>
+			</div>
+		</aside>    
+        
+
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+            <script>
+                var mySwiper = new Swiper('.swiper-container', {
+                    // Optional parameters
+                    slidesPerView: 1,
+                    spaceBetween: 2,
+                    
+    
+                    // If we need pagination
+                    pagination: {
+                        el: '.swiper-pagination',
+                    },
+    
+                    // Navigation arrows
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+    
+                    
+                    
+                    })
+            </script>
+
+
+
+
+
+</body>      
+</html>
